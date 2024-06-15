@@ -2854,6 +2854,11 @@ button#sofax-subscription-btn:hover {
 .blog-details-subscribe-btn input {
   padding: 15px 40% 15px 20px !important;
 }
+@media (max-width: 767px) {
+  .blog-details-subscribe-btn input {
+    padding: 15px 20px 15px 20px !important;
+  }
+}
 @media (max-width: 425px) {
   .blog-details-subscribe-btn input {
     height: 55px;
@@ -3374,6 +3379,22 @@ h1.post__title {
 
 .hero9-thumb img {
   width: 100% !important;
+}
+
+.hero-thumbv10 {
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .sofax-hero-content-v10 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 767px) {
+  .sofax-hero-content-v10 {
+    margin-bottom: 30px;
+  }
 }
 
 .sofax-section-padding2 {
@@ -4530,9 +4551,6 @@ h1.post__title {
 .sofax-cta-content h2 {
   margin-bottom: 20px;
 }
-.sofax-cta-content p {
-  font-size: 20px;
-}
 .sofax-cta-content span.cta-bottom {
   font-size: 18px;
   display: block;
@@ -4782,8 +4800,6 @@ h1.post__title {
   margin-bottom: 24px;
   transition: all 0.4s;
   background-color: var(--white-bg);
-}
-.sofax-pricing-wrap:hover {
   box-shadow: 0px 4px 80px 0px rgba(0, 0, 0, 0.0784313725);
 }
 .sofax-pricing-wrap.active {
@@ -6096,6 +6112,20 @@ a.sofax-connect-login img {
   }
 }
 
+.sofax-content-thumb-v10 {
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .sofax-content-thumb-v10 {
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 767px) {
+  .sofax-content-thumb-v10 {
+    margin-bottom: 30px;
+  }
+}
+
 .sofax-career-content-wrapper {
   border: 1px solid var(--light-color);
   padding: 30px;
@@ -6838,6 +6868,25 @@ img.plasicon {
   }
 }
 
+.ml-80 {
+  margin-left: 80px;
+}
+@media (max-width: 1399px) {
+  .ml-80 {
+    margin-left: 70px;
+  }
+}
+@media (max-width: 1199px) {
+  .ml-80 {
+    margin-left: 50px;
+  }
+}
+@media (max-width: 991px) {
+  .ml-80 {
+    margin-left: 0;
+  }
+}
+
 .mr-50 {
   margin-right: 50px;
 }
@@ -7074,6 +7123,8 @@ img.plasicon {
   border-radius: 5px;
   padding: 30px;
   margin-bottom: 24px;
+  gap: 10px;
+  align-items: center;
 }
 @media (max-width: 767px) {
   .sofax-service-iconbox-wrap {
@@ -7292,6 +7343,11 @@ img.plasicon {
   margin-bottom: 15px;
 }
 
+.servicev10 {
+  border: 1px solid var(--light-color2);
+  gap: 32px;
+}
+
 .about-vr8 {
   padding-bottom: 35px;
   border-bottom: 1px solid var(--light-color2);
@@ -7310,6 +7366,24 @@ img.plasicon {
 .aboutversoin8 {
   padding: 180px 0 100px;
   margin-top: -75px;
+}
+
+.sofax-about-wrapperv10 {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+  border-bottom: 1px solid var(--light-color2);
+  margin-bottom: 30px;
+}
+.sofax-about-icon-content-wrapv10 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.about-v10 {
+  display: flex !important;
+  align-items: center !important;
 }
 
 .sofax-blog-wrap-v4:hover .sofax-blog-img img {
