@@ -25,6 +25,7 @@
 --white-color: #fff;
 --light-color: #EAEDF0;
 --light-color2: #DBDBDB;
+--light-color3: #DBDBDB1A;
 --green-bg: #0C9347;
 --grey-color: #747474;
 }
@@ -1847,6 +1848,15 @@ blockquote {
 .light-color p {
   color: var(--white-color);
 }
+.light-color ul {
+  color: var(--white-color);
+}
+.light-color ul li {
+  color: var(--white-color);
+}
+.light-color ul li a {
+  color: var(--white-color);
+}
 
 /*1.1 layout css*/
 header.sofax-header-section {
@@ -2077,7 +2087,7 @@ a.social-icon img {
 @media (max-width: 767px) {
   .sofax-footer3-text {
     display: block;
-    margin: 15px 0 0 30px;
+    margin: 0 0 30px 0;
   }
 }
 .sofax-footer3 p {
@@ -2158,6 +2168,14 @@ a.social-icon img {
   text-align: center;
   margin: 0 auto;
   max-width: 750px;
+}
+
+.footer-version10 ul li a {
+  border: 1px solid var(--dark-bg) !important;
+}
+
+.footer10-bottom-wrap {
+  border-top: 1px solid var(--light-color3);
 }
 
 /*1.2 components css*/
@@ -4936,6 +4954,29 @@ h1.post__title {
   background-image: url(../images/v1/switcher-shape.svg) !important;
 }
 
+.pricing-wrapv10 {
+  border: 1px solid var(--light-color2);
+  box-shadow: none;
+}
+.pricing-headerv10 {
+  margin-bottom: 30px;
+}
+.pricing-headerv10 h3 {
+  margin-bottom: 15px;
+}
+.pricing-pricingv10 {
+  background: var(--light-color);
+  padding: 17px 54px 17px 58px;
+  border-radius: 50px;
+  margin-bottom: 0;
+  justify-content: center;
+}
+.pricing-bodyv10 {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid var(--light-color);
+}
+
 .sofax-hero-shape {
   position: absolute;
   left: 0;
@@ -6123,6 +6164,28 @@ a.sofax-connect-login img {
 @media (max-width: 767px) {
   .sofax-content-thumb-v10 {
     margin-bottom: 30px;
+  }
+}
+
+.sofax-faq-thumbv10 {
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .sofax-faq-thumbv10 {
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 767px) {
+  .sofax-faq-thumbv10 {
+    margin-bottom: 30px;
+  }
+}
+.sofax-faq-thumbv10 img {
+  width: 60%;
+}
+@media (max-width: 991px) {
+  .sofax-faq-thumbv10 img {
+    width: 80%;
   }
 }
 
@@ -7368,22 +7431,34 @@ img.plasicon {
   margin-top: -75px;
 }
 
-.sofax-about-wrapperv10 {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 30px;
-  border-bottom: 1px solid var(--light-color2);
-  margin-bottom: 30px;
+.sofax-about-wrapperv10 .active {
+  border-bottom: 1px solid var(--accent-color) !important;
 }
 .sofax-about-icon-content-wrapv10 {
   display: flex;
   align-items: center;
   gap: 15px;
 }
+.sofax-about-datav10 {
+  margin-top: 30px;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: none !important;
+  background-color: var(--light-bg);
+  border-color: var(--light-bg);
+}
 
 .about-v10 {
   display: flex !important;
   align-items: center !important;
+}
+
+.sofax-about-wrapv10 ul li a {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding-bottom: 30px;
 }
 
 .sofax-blog-wrap-v4:hover .sofax-blog-img img {
