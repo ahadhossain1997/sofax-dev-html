@@ -7434,6 +7434,11 @@ img.plasicon {
 .sofax-about-wrapperv10 .active {
   border-bottom: 1px solid var(--accent-color) !important;
 }
+@media (max-width: 767px) {
+  .sofax-about-wrapperv10 .active {
+    border-bottom: none !important;
+  }
+}
 .sofax-about-icon-content-wrapv10 {
   display: flex;
   align-items: center;
@@ -7442,9 +7447,14 @@ img.plasicon {
 .sofax-about-datav10 {
   margin-top: 30px;
 }
+@media (max-width: 767px) {
+  .sofax-about-datav10 {
+    margin-top: 0;
+  }
+}
 
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-  color: none !important;
+  color: var(--body-color) !important;
   background-color: var(--light-bg);
   border-color: var(--light-bg);
 }
@@ -7459,6 +7469,15 @@ img.plasicon {
   align-items: center;
   gap: 24px;
   padding-bottom: 30px;
+}
+
+.sofax-about-wrapv10 .nav-tabs {
+  justify-content: space-between;
+}
+@media (max-width: 767px) {
+  .sofax-about-wrapv10 .nav-tabs {
+    border-bottom: var(--body-color) !important;
+  }
 }
 
 .sofax-blog-wrap-v4:hover .sofax-blog-img img {
