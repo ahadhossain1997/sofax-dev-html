@@ -7436,7 +7436,7 @@ img.plasicon {
 }
 @media (max-width: 767px) {
   .sofax-about-wrapperv10 .active {
-    border-bottom: none !important;
+    border-bottom: var(--body-color) !important;
   }
 }
 .sofax-about-icon-content-wrapv10 {
