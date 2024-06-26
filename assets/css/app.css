@@ -3415,6 +3415,36 @@ h1.post__title {
   }
 }
 
+.slider-custom-anim-left {
+  opacity: 1;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-delay: 0.3s;
+  animation-name: var(--animation-name);
+}
+
+.slider-custom-anim-left {
+  --animation-name: custom-anim-left;
+}
+
+.custom-anim-left {
+  animation: custom-anim-left 1.3s forwards cubic-bezier(0.645, 0.045, 0.355, 1) 0.4s;
+  opacity: 0;
+}
+
+@keyframes custom-anim-left {
+  0% {
+    transform: translateX(-5%);
+    clip-path: inset(0 100% 0 0);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    clip-path: inset(0 0 0 0);
+    opacity: 1;
+  }
+}
 .sofax-section-padding2 {
   width: 100%;
 }
