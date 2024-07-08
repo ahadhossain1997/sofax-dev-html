@@ -616,4 +616,7 @@ function _toPrimitive(t, r) { if ("object" != _typeof(t) || !t) return t; var e 
   // AOS.init({
   //   duration: 1200,
   // })
+
+  var currentYear = new Date().getFullYear();
+  $('#current-year').text(currentYear);
 })(jQuery);
